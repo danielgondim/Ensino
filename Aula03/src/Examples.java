@@ -24,11 +24,6 @@ public class Examples {
 		System.out.println("A multiplicação: " + num1 * num2);
 		System.out.println("A divisão: " + num2 / num1);
 		System.out.println("O módulo: " + 10 % 3);
-
-		int negativo = -40;
-		System.out.println(negativo);
-		int positivo = +negativo;
-		System.out.println(positivo);
 	}
 
 	public static int maiorNumeroModoUm(int num1, int num2) {
