@@ -14,7 +14,7 @@ public class TestaContaSimples1 {
 
 	@Test
 	public void testaContaSimples1() {
-		assertEquals("Nome errado", "JacquesSauve", umaConta.getNome());
+		assertEquals("Nome errado", "Jacques Sauve", umaConta.getNome());
 		assertEquals("cpf errado", "123456789-01", umaConta.getCPF());
 		assertEquals("Número errado", 123, umaConta.getNumero());
 		assertEquals("Saldo errado", 0.0, umaConta.getSaldo(), 0.005);
